@@ -1,11 +1,10 @@
-# Project Navigation - Udacity Deep Reinforcement Learning
 [//]: # (Image References)
 
-[video_random]: https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/results/random_agent.gif "Random Agent"
+[video_random]: https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning/blob/master/Training-Results/random_agent.gif "Random Agent"
 
-[video_trained]: https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/results/trained_agent.gif "Trained Agent"
+[video_trained]: https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning/blob/master/Training-Results/trained_agent.gif "Trained Agent"
 
-# Project 1: Navigation
+# Project 1: Navigation - Udacity Deep Reinforcement Learning
 
 ### Introduction
 
@@ -53,9 +52,7 @@ env = env = UnityEnvironment(file_name="Banana.app")
 - `dqn.pth`: saved model weights for the original DQN model
 - `ddqn.pth`: saved model weights for the Double DQN model
 - `ddqn.pth`: saved model weights for the Dueling Double DQN model
-- `Navigation_exploration.ipynb`: explore the unity environment
-- `Navigation_solution.ipynb`: notebook containing the solution
-- `Navigation_Pixels.ipynb`: notebook containing the code for the pixel-action problem (see below)
+- `Navigation.ipynb`: notebook containing the solution
 
 ### Instructions
 
@@ -71,16 +68,16 @@ To watch a trained smart agent, follow the instructions below:
 Several enhancements to the original DQN algorithm have also been incorporated:
 
 - Double DQN [[Paper](https://arxiv.org/abs/1509.06461)] [[Code](https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/dqn_agent.py#L94)]
-- Prioritized Experience Replay [[Paper](https://arxiv.org/abs/1511.05952)] [[Code]()] (WIP)
+- Prioritized Experience Replay [[Paper](https://arxiv.org/abs/1511.05952)] [[Code]()] (To be worked out)
 - Dueling DQN [[Paper](https://arxiv.org/abs/1511.06581)] [[Code](https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/model.py)]
 
 ### Results
 
-Plot showing the score per episode over all the episodes. The environment was solved in **377** episodes (currently).
+Plot showing the score per episode over all the episodes. The environment was solved in **361** episodes (currently).
 
 | Double DQN | DQN | Dueling DQN |
 :-------------------------:|:-------------------------:|:-------------------------:
-![double-dqn-scores](https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/results/ddqn_new_scores.png) |  ![dqn-scores](https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/results/dqn_new_scores.png) | ![dueling-double-dqn-scores](https://github.com/dalmia/udacity-deep-reinforcement-learning/blob/master/2%20-%20Value-based%20methods/Project-Navigation/results/dddqn_new_scores.png) 
+![double-dqn-scores](https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning/blob/master/Training-Results/ddqn_new_scores.png) |  ![dqn-scores](https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning/blob/master/Training-Results/dqn_new_scores.png) | ![dueling-double-dqn-scores](https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning/blob/master/Training-Results/dddqn_new_scores.png) 
 
 
 ### Challenge: Learning from Pixels
