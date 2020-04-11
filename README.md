@@ -98,7 +98,7 @@ Then, place the file in this folder, and unzip (or decompress) the file.  Next, 
 
 ### Dependencies
 
-Use the `requirements.txt` file (in the [main](https://github.com/dalmia/udacity-deep-reinforcement-learning) folder) to install the required dependencies via `pip`.
+Use the `requirements.txt` file (in the [main](https://github.com/vivekthota16/Project-Navigation-Udacity-Deep-Reinforcement-Learning) folder) to install the required dependencies via `pip`.
 
 ```
 pip install -r requirements.txt
